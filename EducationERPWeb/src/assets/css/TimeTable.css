@@ -1,0 +1,147 @@
+.table-heading h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: start;
+  padding-left: 15%;
+  margin-bottom: 19px;
+}
+.table-list {
+  width: 1280px;
+  text-align: center;
+  height: 661px;
+  /* margin: 0px 0px 0px 13px; */
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+}
+.school-table .table-inner tr {
+  display: flex;
+  justify-content: space-between;
+}
+.table > :not(caption) > * > * {
+  border-bottom-width: 0px;
+}
+.timeTableNote{
+width:73% !important;
+position:fixed;
+background-color:#fff;
+display: flex;
+flex-wrap: wrap;
+padding:0px 150px;
+border-radius:66px;
+z-index:99;
+left:192px;
+}
+
+
+
+.tablecard {
+padding-top:100px;
+}
+
+.periods-cards {
+  margin: 10px 2px;
+  border-radius: 8px;
+  border: 1px solid #a5a1a1;
+
+}
+
+.periods-cards h6 {
+  padding: 8px 0px;
+}
+
+.periods-cards ul {
+  padding-left: 0px;
+}
+
+.periods-cards ul li {
+  list-style: none;
+  padding: 6px;
+}
+
+.alloted button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.mainmodeldesign {
+  display: block;
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+.modeldesign {
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editbutton {
+  color: #2a166f;
+  border: none;
+  background: none;
+}
+.editbutton svg {
+  margin-bottom: 5px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.modifycancel {
+  border: 1px solid rgba(218, 37, 28, 1);
+  color: #141212;
+  background: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.continue-models {
+  margin-top: 225px;
+  margin-left: 98px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.timetable-features{
+  position:relative;
+  bottom:45px;
+}
+
+.ttbut{
+padding: 10px 25px 0px 50px;
+top:1px;
+}
+@media (max-width: 480px) {
+  .table-list {
+    margin: 0px;
+   width:411px;
+  }
+
+  .continue-models {
+    margin-left: 0px;
+  }
+
+  .tablecard {
+    padding-top:200px;
+    }
+    
+.timeTableNote{
+width:90% !important;
+left:20px;
+
+}
+
+  /* .timetable-features{
+bottom:10px;
+
+  } */
+}
+
+

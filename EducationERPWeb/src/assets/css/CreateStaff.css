@@ -1,0 +1,131 @@
+.import-btn {
+  width: 145px;
+  color: black;
+  height: 32px;
+  margin-left: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notop {
+  margin-top: 0;
+  height: 32px;
+  width: 100%;
+  margin-left: 75px;
+}
+
+.redText {
+  color: rgba(218, 37, 28, 1);
+}
+.staffSearch {
+  min-width: 230px;
+}
+
+.importIcon {
+  margin-right: 3px;
+  /* font-size: 10px; */
+}
+.studentHeader {
+  display: flex;
+}
+.studentHeaderBtn {
+    display: flex;
+}
+
+.studentHeading {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 512px) {
+  .studentHeading {
+    font-size:20px;
+  }
+
+  .studentHeaderBtn{
+    margin-left: 140px;
+  }
+
+  .studentHeader{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+  .msearchbar {
+    position: relative;
+    bottom: 130px;
+    left: 75px;
+    padding: 10px;
+    width: 67px;
+  }
+  .columnWise {
+    display: flex;
+    flex-direction: column;
+  }
+  .import-btn {
+    font-size: 0.8rem;
+    width: 127px;
+  }
+  .sampleFont {
+    margin-top: -5px;
+  }
+  .staffSearch {
+    /* min-width: 210px; */
+    margin-top: -10px;
+  }
+  .importBtnnnnn {
+    display: flex;
+    align-items: center;
+  }
+
+  .serachBtn {
+    bottom: 135px;
+    height: 31px;
+  }
+
+  .student-actions .nextBtn {
+    width: 34%;
+  }
+}
+
+
+
+.custom-file-button input[type=file] {
+  margin-left: -2px !important;
+}
+
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+  display: none;
+}
+
+.custom-file-button input[type=file]::file-selector-button {
+  display: none;
+}
+
+.custom-file-button:hover label {
+  background-color: #dde0e3;
+  cursor: pointer;
+}
+
+.upload-design{
+  border: 1px solid rgba(206, 206, 206, 1);
+  line-height: 16px;
+  color: #d92828;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 0px 10px;
+ cursor:pointer;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+}
+
+.file-name {
+  display: inline-block;
+  margin-left: 10px;
+  font-size:13px;
+}
+

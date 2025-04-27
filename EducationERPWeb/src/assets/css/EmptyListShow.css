@@ -1,0 +1,37 @@
+.EmptyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px 0px;
+    margin: 25px;
+}
+
+.EmptyColumnFlex{
+    flex-direction: column;
+    /* margin-left: 100px; */
+}
+
+.EmptyListOuter{
+    width:100%;
+}
+
+.EmptyListText{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.EmptyListSpan{
+    color: #DA251C;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 512px){
+.EmptyContainer{
+margin:10px;
+}
+}

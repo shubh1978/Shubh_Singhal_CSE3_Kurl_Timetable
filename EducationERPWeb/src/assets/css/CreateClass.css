@@ -1,0 +1,127 @@
+/* .left-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  padding: 50px;
+  margin: 50px 0px 50px 90px;
+  background-color: white;
+} */
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  margin-bottom: 63px;
+}
+
+.circle:first-child {
+  background-color: green;
+  border: 2px solid #000000;
+}
+
+.circle:nth-child(2) {
+  background-color: green;
+  border: 2px solid #000000;
+}
+
+.circle:last-child {
+  margin-bottom: 0;
+}
+
+.circle + .circle {
+  position: relative;
+}
+
+.circle + .circle::before {
+  content: "";
+  position: absolute;
+  top: -64px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 63px;
+  background-color: #ccc;
+}
+
+
+/* .ShiftBar {
+  display: flex;
+} */
+
+.btndesign-main{
+position:relative;
+
+}
+
+  .btnfooter {
+    position: absolute;
+    /* bottom: 0; */
+    right: -126px;
+    margin: 0px 150px 55px 0;
+    justify-content: end;
+    display: flex;
+    padding: 50px 25px 0px 50px;
+    /* top: 269px; */
+}
+
+.backbtn {
+  padding: 5px 10px 5px 10px;
+  width: 183;
+  border: 2px solid red;
+  border-radius: 6px;
+  background: #ffffff;
+  color: red;
+  margin-right: 10px;
+}
+
+.backbtn:hover {
+  background-color: rgb(241, 235, 235);
+}
+
+.nextbtn {
+  padding: 5px 10px 5px 10px;
+  width: 183;
+  color: white;
+  background-color: rgba(218, 37, 28, 1);
+  border: 1px solid red;
+  border-radius: 6px;
+}
+
+.nextbtn:hover {
+  background-color: rgb(188, 68, 68);
+  color: white;
+}
+
+.sideways{
+  width: 90%;
+  justify-content: space-between;
+}
+.ttbut{
+padding: 10px 25px 0px 50px;
+top:193px;
+}
+
+
+
+.class-design-inner  th{
+  border-bottom: 1px solid #ccc;
+  position:sticky;
+  top:20px;
+}
+
+
+@media only screen and (max-width: 1400px){
+  .btnfooter{
+    margin: 0px 7px 75px 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .btnfooter{
+    margin: 0px -3px 50px 0;
+  }
+
+}

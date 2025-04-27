@@ -1,0 +1,135 @@
+.left-navbar {
+  width: 156px;
+  display: flex;
+  height: 552px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  padding: 50px;
+  margin: 0px 0px 50px 136px;
+  background-color: white;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  margin-bottom: 63px;
+}
+
+/* .circle:first-child {
+  background-color: green;
+  border: 2px solid #000000;
+} */
+
+/* .circle:nth-child(2) {
+  background-color: green;
+  border: 2px solid #000000;
+} */
+.circle:nth-last-child(4) {
+  background-color: green;
+  border: 2px solid #000000;
+}
+
+.circle:last-child {
+  margin-bottom: 0;
+}
+
+.circle + .circle {
+  position: relative;
+}
+
+.circle + .circle::before {
+  content: '';
+  position: absolute;
+  top: -64px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 63px;
+  background-color: #ccc;
+}
+
+/* .ShiftBar {
+  display: flex;
+} */
+
+.headerShift-content {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.shift-list {
+  width: 1090px;
+  text-align: center;
+  height: 85vh;
+  margin: 0px 0px 0px 13px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+  overflow: scroll;
+}
+
+.backbtn {
+  padding: 5px 10px 5px 10px;
+  width: 183;
+  border: 2px solid red;
+  border-radius: 6px;
+  background: #ffffff;
+  color: red;
+  margin-right: 10px;
+}
+
+.backbtn svg {
+  margin-bottom: 3px;
+}
+
+.nextbtn svg {
+  margin-bottom: 3px;
+}
+
+.backbtn:hover {
+  background-color: rgb(241, 235, 235);
+}
+
+.nextbtn {
+  padding: 5px 10px 5px 10px;
+  width: 183;
+  color: white;
+  border: 1px solid red;
+  border-radius: 6px;
+  background-color: rgba(218, 37, 28, 1);
+}
+
+.nextbtn:hover {
+  background-color: rgb(188, 68, 68);
+}
+
+@media (max-width: 512px) {
+  .left-navbar {
+    width:  96%;
+    height: 5px;
+    display: flex;
+    align-content: center;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  padding-right:50px;
+  }
+
+  .shift-list{
+    width: 96%;
+  }
+
+
+  .mshiftlist{
+    mshiftlist:96%;
+  }
+
+}

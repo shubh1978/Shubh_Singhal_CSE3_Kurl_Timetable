@@ -1,0 +1,39 @@
+.headerLine {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.headerLinePart {
+  border-bottom: 4px solid rgba(218, 37, 28, 1);
+  border-radius: 0px 0px 2px 2px;
+  width: 48%;
+  margin-left: 8px;
+  cursor: default;
+}
+.headerLinePart2 {
+  border-bottom: 4px solid rgba(220, 220, 220, 1);
+  border-radius: 0px 0px 2px 2px;
+  width: 48%;
+  margin-left: 8px;
+  cursor: default;
+}
+
+.btngrp {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btngrp h6 {
+  margin-bottom: 0;
+}
+
+.btnModal {
+  height: 40px;
+  width: 50%;
+}
+
+.selectSubject {
+  margin-top: -35px;
+}

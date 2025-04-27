@@ -1,0 +1,105 @@
+.ModalForm {
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.3s ease-in-out;
+  /* padding: 10px; */
+}
+.ModalForm input {
+  font-size: 0.85rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.ModalForm .input-margin {
+  margin: 15px 0px 20px 0px;
+  width: 100%;
+}
+
+.ModalForm textarea {
+  font-size: 0.85rem;
+  /* width: 90%; */
+  /* margin-left: 12px; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 6px;
+  height: 120px;
+}
+
+.addModalButton {
+  padding: 6px;
+  width: 35%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(218, 37, 28, 1);
+  color: white;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.d-flexCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-80{
+  width: 80%;
+}
+
+
+
+.input1 {
+  /* width: 100%; */
+  outline: none;
+  transition: 0.1s ease;
+  z-index: 1111;
+  background: transparent;
+  border: 1px solid red;
+}
+
+.labelLine1 {
+  position: absolute;
+  transition: 0.2s ease;
+  /* margin-top: -35px; */
+  margin-left:7px ;
+  /* font-size: 1rem; */
+}
+
+.input1:focus,
+.input1:valid {
+  color: rgb(0, 0, 0);
+  /* font-size: 10px; */
+}
+
+.input1:focus + .labelLine1,
+.input1:valid + .labelLine1 {
+  color: red;
+  transform: translate(-155px, 20px) scale(0.88);
+  /* z-index: 1111; */
+  /* font-size: 4px; */
+}
+
+.scrollable-container::-webkit-scrollbar {
+    width: 5px; /* width of the vertical scrollbar */
+    height: 16px; /* height of the horizontal scrollbar */
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track (part the thumb slides within) */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background: #db3030; /* color of the thumb itself */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+    background: #df5555; /* color of the thumb on hover */
+}

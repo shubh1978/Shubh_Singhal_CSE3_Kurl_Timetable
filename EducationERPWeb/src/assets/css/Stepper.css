@@ -1,0 +1,122 @@
+.step-item {
+  margin-left: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 36%;
+}
+
+.step-item:not(:first-child):before {
+  content: '';
+  background-color: rgb(226 232 240);
+  position: absolute;
+  width: 2%;
+  height: 67px;
+  right: 24px;
+  top: -65px;
+  /* --tw-translate-y: 50%; */
+}
+
+.step {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.active .step {
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid #000000; */
+  color: #000000;
+}
+
+.no-active {
+  border: none;
+  background-color: transparent;
+  color: #000000;
+}
+.not-complete {
+  background-color: transparent;
+
+  color: #000000;
+}
+.complete .step {
+  background-color: rgb(22 163 74);
+  transition: 0.2s;
+  color: #000000;
+  /* border: 2px solid #000000; */
+}
+.complete p {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  color: #000000;
+}
+.complete:not(:first-child):before,
+.active:not(:first-child):before {
+  background-color: rgb(0, 0, 0);
+  transition: 0.75s;
+}
+
+.headingTag {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.headingTag p {
+  padding-left: 20px;
+}
+
+@media (max-width: 512px) {
+  .step-item:not(:first-child):before {
+    content: '';
+    background-color: rgb(226 232 240);
+    position: absolute;
+    height: 2%;
+    width: 77%;
+    right: 29px;
+    top: 12px;
+  }
+
+  .step-item:last-child:before {
+    right: 35px;
+    width: 58%;
+  }
+
+  .step-item:nth-last-child(3):before {
+    width: 64%;
+    right: 36px;
+  }
+
+  .step-item:nth-last-child(4):before {
+    /* right: 100px; */
+    /* background-color: aquamarine; */
+    width: 60%;
+    right: 33px;
+  }
+
+  .headingTag {
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .headingTag p {
+    padding-left: 11px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .pbspce {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+  }
+}

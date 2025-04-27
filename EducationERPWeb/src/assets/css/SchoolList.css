@@ -1,0 +1,228 @@
+.school-list {
+  text-align: center;
+  width: 1280px;
+  height: 627px;
+  /* height: 646px; */
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: white;
+  padding: 24px;
+  max-height: 661px;
+  overflow: hidden;
+  /* margin-left:20px; */
+}
+
+.school-list-header {
+  background-color: #ffffff;
+  /* min-height: 10vh; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  overflow: scroll;
+  width: 100%;
+  /* padding: 0px 20px; */
+  /* position: fixed; */
+  /* width:65%; */
+  /* z-index: 1; */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  /* margin: 20px 0px 0px 20px; */
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #201d1d;
+  width: 75%;
+}
+
+.rowClick {
+  cursor: pointer;
+}
+
+.rowClick:hover {
+  background-color: rgb(239, 238, 238);
+}
+
+.input {
+  margin-top: 25px;
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  /* border-radius: px; */
+}
+.input input {
+  width: 100%;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+
+.SearchSchoolbtn {
+  padding: 10px 20px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: rgba(42, 22, 111, 1);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-items: center;
+  align-items: center;
+}
+
+.add-button {
+  border-radius: 6px;
+  justify-content: center;
+  border: 1px;
+  color: #d92828;
+  background-color: #ffffff;
+  border: 1px solid rgba(206, 206, 206, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 8px 13px;
+  width: 13%;
+}
+
+.school-table {
+  width: 100%;
+  margin: 30px 0px;
+  border-collapse: collapse;
+  /* margin-top: 100px; */
+}
+
+.school-table th,
+.school-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border: none;
+}
+
+.school-table th {
+  border: 0px 0px 1px 0px;
+  background: white;
+}
+
+.fixedHeader {
+  overflow-y: auto;
+  height: 90%;
+}
+.fixedHeader thead th {
+  position: sticky;
+  top: 0px;
+}
+
+.btnschool {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 35px;
+  margin-bottom: 22px;
+}
+
+.threeDots {
+  background: transparent;
+}
+
+.dropstart .dropdown-toggle::before {
+  visibility: hidden !important;
+}
+
+@media(max-width:512px){
+
+  .downBtn{
+    
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    /* background-color: #201d1d; */
+  }
+
+  /* .goToShiftBtn{
+    height: 30px;
+  } */
+
+  .header-content{
+    justify-content: space-between;
+  }
+
+  .header-title{
+width:183px;
+  
+}
+
+.mschool{
+  width:146px !important;
+  }
+
+
+/* add this css  for mobile responsive  */
+
+
+  .input input{
+width:69%;
+  }
+
+  .phone-list{
+width:auto;
+  }
+
+
+  .shift-mview{
+justify-content:space-around !important;
+  }
+
+  .mviewclass-design{
+display:none;
+  }
+
+.schoolName{
+  font-size: 15px;
+}
+
+.add-button{
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  font-stretch: condensed;
+width:35%;
+z-index:999;
+}
+.school-list-header{
+  min-height:5vh;
+}
+}
+
+.timeTableNote p{
+font-size:16px;
+}
+
+.staff-details{
+  min-height:18vh !import;
+  
+}
+
+
+
+
+
+
+
+

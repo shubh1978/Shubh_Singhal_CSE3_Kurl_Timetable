@@ -1,0 +1,80 @@
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  margin-bottom: 63px;
+}
+
+.circle:first-child {
+  background-color: green;
+  border: 2px solid #000000;
+}
+
+.circle:last-child {
+  margin-bottom: 0;
+}
+
+.circle + .circle {
+  position: relative;
+}
+
+.circle + .circle::before {
+  content: '';
+  position: absolute;
+  top: -64px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 63px;
+  background-color: #ccc;
+}
+
+.ShiftBar {
+  display: flex;
+}
+
+.headerShift-content {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 0px 0px;
+}
+
+
+.backbtn {
+  padding: 5px 10px 5px 10px;
+  width: 183px;
+  border: 2px solid red;
+  border-radius: 6px;
+  background: #ffffff;
+  color: red;
+  margin-right: 10px;
+}
+
+.backbtn:hover {
+  background-color: rgb(241, 235, 235);
+}
+
+.nextbtn {
+  padding: 5px 10px 5px 10px;
+  width: 183px;
+  color: white;
+  border: 1px solid red;
+  border-radius: 6px;
+  background-color: rgba(218, 37, 28, 1);
+}
+
+.nextbtn:hover {
+  background-color: rgb(188, 68, 68);
+}
+
+
+@media (max-width:512px){
+  .ShiftBar{
+    flex-direction: column;
+    /* align-items: center;
+    padding: 0px 10px; */
+  }
+
+}

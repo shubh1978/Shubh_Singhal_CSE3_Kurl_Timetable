@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.login-form {
+  width: 355px;
+  margin: 0 auto;
+  /* padding: 20px; */
+  /* border: 1px 1px 0px 1px solid #ccc; */
+  border-radius: 14px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.inputL {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  background-color: #DA251C;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #ff0800;
+}
+
+@media only screen and (max-width: 1000px){
+  .login-form{
+    width: 80%;
+  }
+
+}
