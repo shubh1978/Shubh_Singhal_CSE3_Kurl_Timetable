@@ -9,7 +9,7 @@ The system improves operational efficiency, reduces human error, and helps educa
 
 Link to Video Explanation
 👉 Click Here to Watch Video Explanation
-(Upload the video file to GitHub and replace # with the actual GitHub file link or external drive link if needed.)
+https://drive.google.com/file/d/1aU26eNBe58uYLCMotnrDGQv367whTABo/view?usp=drivesdk
 
 Technologies Used
 Frontend: React.js, JavaScript, HTML5, CSS3
